@@ -1,8 +1,7 @@
-NAME=convert
+NAME=cpp06_ex01.out
 CXXFLAGS= -Werror -Wextra -Wall -std=c++98
 
-SRCS =	main.cpp\
-				Parser.cpp
+SRCS =	main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
